@@ -1,0 +1,15 @@
+**/target/
+
+
+
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+
+
+# other
+dev/mysql/data/*
+dev/redis/data/*
+auth-service/src/main/resources/application-secret.yml

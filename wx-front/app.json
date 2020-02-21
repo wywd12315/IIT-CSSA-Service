@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/goods/goods",
+    "pages/category/list/list",
+    "pages/category/index/index",
+    "pages/auth/auth",
+    "pages/post/post/post",
+    "pages/post/region/region",
+    "pages/post/nav2post/nav2post",
+    "pages/post/category/category",
+    "pages/ucenter/income/income",
+    "pages/ucenter/collect/collect",
+    "pages/ucenter/index/index",
+    "pages/ucenter/bought/bought",
+    "pages/ucenter/sold/sold",
+    "pages/ucenter/posted/posted",
+    "pages/ucenter/about/about",
+    "pages/user/user",
+    "pages/chat/chatIndex/chatIndex",
+    "pages/chat/chatForm/chatForm",
+    "pages/undone/undone"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "仿闲鱼交易平台",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#333",
+    "color": "#333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/ic_menu_home_nor.png",
+        "selectedIconPath": "static/images/ic_menu_home_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/index/index",
+        "iconPath": "static/images/ic_menu_cate_nor.png",
+        "selectedIconPath": "static/images/ic_menu_cate_pressed.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/post/nav2post/nav2post",
+        "iconPath": "static/images/ic_menu_add_nor.png",
+        "selectedIconPath": "static/images/ic_menu_add_nor.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/chat/chatIndex/chatIndex",
+        "iconPath": "static/images/ic_menu_chat_nor.png",
+        "selectedIconPath": "static/images/ic_menu_chat_pressed.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/ucenter/index/index",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
